@@ -1,3 +1,4 @@
+/* colors */
 h1 {
   font-family: "Pinyon Script", cursive;
   font-size: 7em;
@@ -20,10 +21,17 @@ ul.art-list {
   padding: 0;
   margin: 0; }
 
+ul.art-list li {
+  padding: .25em;
+  background: #e7f7ff;
+  margin: 1em auto 1em auto; }
+
 ul.art-list li a,
 ul.art-list li a:link,
 ul.art-list li a:visited {
-  color: #990000; }
+  color: #777777;
+  text-decoration: none; }
 ul.art-list li a:hover,
 ul.art-list li a:active {
-  color: #990000; }
+  color: #777777;
+  text-decoration: none; }

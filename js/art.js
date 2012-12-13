@@ -41,5 +41,5 @@ window.ajaxConsoleLog = function (textStatus, jqXHR) {
 };
 
 $(function () {
-    // document ready
+    // $('h1').fitText();
 });

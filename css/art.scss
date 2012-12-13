@@ -1,5 +1,9 @@
 $fancy-font: 'Pinyon Script', cursive;
 
+/* colors */
+$light-blue: #e7f7ff;
+$white: #FFFFFF;
+
 h1 {
     font-family: $fancy-font;
     font-size: 7em;
@@ -26,15 +30,23 @@ ul.art-list {
 }
 
 ul.art-list li {
+    padding: .25em;
+    background: $light-blue;
+    margin: 1em auto 1em auto;
+}
+
+ul.art-list li {
     a,
     a:link,
     a:visited {
-        color: #990000;
+        color: #777777;
+        text-decoration: none;
     }
 
     a:hover,
     a:active {
-        color: #990000;
+        color:  #777777;
+        text-decoration: none;
     }
 
 }
