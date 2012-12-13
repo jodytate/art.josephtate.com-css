@@ -1,4 +1,6 @@
 art.josephtate.com
 ==================
 
-art
+Paintings, Photography, Multimedia.
+
+@josephtate

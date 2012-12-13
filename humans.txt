@@ -15,8 +15,5 @@
     CSS3,
     jQuery, 
     Modernizr,
-    Bootstrap,
     Grunt,
-    Sass,
-    Angular
-    EVERYTHING
+    Sass
