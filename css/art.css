@@ -6,6 +6,12 @@ h1 {
   text-align: center;
   margin-bottom: 0; }
 
+h2 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center; }
+
 p.byline {
   font-family: "Pinyon Script", cursive;
   text-align: center;

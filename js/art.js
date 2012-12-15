@@ -40,6 +40,13 @@ window.ajaxConsoleLog = function (textStatus, jqXHR) {
         ', textStatus = ' + textStatus);
 };
 
+var footer = {};
+footer['source'] = $('#footer-template').html();
+footer['template'] = Handlebars.compile(footer.source);
+footer['context'] = {wording: "Whatever I want it to say here"};
+footer['html'] = footer.template(footer.context);
+
+
 $(function () {
-    // $('h1').fitText();
+    $('footer').append(footer.html);
 });

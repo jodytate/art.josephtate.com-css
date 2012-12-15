@@ -6,10 +6,10 @@
         <title><?php echo $title ?></title>
         <meta name="description" content="<?php echo $description ?>">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="/css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="./css/art.css">
-        <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="/css/art.css">
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
 
