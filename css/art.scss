@@ -9,7 +9,18 @@ h1 {
     font-size: 7em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 0; 
+        a,
+        a:link,
+        a:visited {
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover,
+        a:active {
+            color:  #000000;
+            text-decoration: none;
+        }
 }
 
 h2 {
@@ -34,26 +45,42 @@ ul.art-list {
     font-size: 2.5em;
     padding: 0;
     margin: 0;
+    li {
+        padding: .25em;
+        background: $light-blue;
+        margin: 1em auto 1em auto; 
+        a,
+        a:link,
+        a:visited {
+            color: #777777;
+            text-decoration: none;
+        }
+        a:hover,
+        a:active {
+            color:  #333333;
+            text-decoration: none;
+        }
+    }
 }
 
-ul.art-list li {
-    padding: .25em;
-    background: $light-blue;
-    margin: 1em auto 1em auto;
+.youtube {
+    margin: 0 auto 0 auto;
+    display: block;
 }
 
-ul.art-list li {
-    a,
-    a:link,
-    a:visited {
-        color: #777777;
-        text-decoration: none;
-    }
-
-    a:hover,
-    a:active {
-        color:  #777777;
-        text-decoration: none;
-    }
-
+footer {
+    text-align: center;
+    font-family: $fancy-font;
+    font-size: 1em;
+        a,
+        a:link,
+        a:visited {
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+        a:hover,
+        a:active {
+            color:  #CCCCCC;
+            text-decoration: none;
+        }
 }

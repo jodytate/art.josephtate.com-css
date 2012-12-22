@@ -13,7 +13,7 @@
     </head>
     <body>
 
-        <header>
-            <h1>Art</h1>
-            <p class="byline">by Joseph Tate</p>
-        </header>
+    <header>
+        <h1><a href="/">Art</a></h1>
+        <p class="byline">by Joseph Tate</p>
+    </header>

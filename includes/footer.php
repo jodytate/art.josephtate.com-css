@@ -1,4 +1,6 @@
         <footer>
+            Thank You for Visiting <br/>
+            <a href="http://josephtate.com">josephtate.com</a> &amp; <a href="">@josephate</a>
         </footer>
     
     
